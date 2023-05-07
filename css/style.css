@@ -347,4 +347,12 @@ section::after{
   
 }
 
+.intro-img {
+    position: absolute;
+    left: 45%;
+    bottom: -550px;
+    padding: 10px;
+    width: 45%;
+  }
+
 
