@@ -431,7 +431,7 @@ section::after{
   }
 
   .movie {
-    position: relative;
+    position: flex;
   }
   
 
