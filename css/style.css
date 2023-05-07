@@ -3,9 +3,66 @@ body {
     font-family: 'Arial', Open Sans, Verdana, sans-serif;
     color: white;
     display: grid;
-
 }
+/*mobile styles*/
+@media only screen and (max-width: 480px) {
+  body{
+  width: 320px;  
 
+
+  }
+pre{
+  font-size: .8em; 
+  padding: .5em; 
+  border-bottom: 2px solid; 
+  line-height: 1.6; 
+  font-weight: bold;
+}
+.menu ul{
+  display: none;
+}
+.menu select{
+  width: 200px;
+  diplay: block;
+  margin: 1em auto;
+}
+}
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  body{
+    width: 80%;  
+  
+  
+    }
+  pre{
+    font-size: 1em; 
+    padding: .5em; 
+    border-bottom: 2px solid; 
+    line-height: 1.6; 
+  }
+  .menu select {
+    display:none;
+  }
+}
+/*desktop styles*/
+@media only screen and (min-width: 769px) {
+  body{
+    width: 700px;  
+  
+  
+    }
+  pre{
+    font-size: 1.2em; 
+    padding: 1em .5em; 
+    border-bottom: 2px solid; 
+    line-height: 1.6; 
+  } 
+  .menu select {
+    display:none;
+  }
+}
+<style>
+/*global styles*/ 
 header, main, aside, footer {
   }
 
@@ -208,6 +265,7 @@ section::after{
     display: inline-block;
     margin: 6px;
     text-decoration: solid;
+    position: relative;
 
 }
 
@@ -218,9 +276,10 @@ section::after{
     border-radius: 5px;
     display: inline-block;
     margin: 6px;
-    right: 110px;
+    right: 5px;
     text-decoration: solid;
     font-weight: bold;
+    position: relative;
     
 }
 
@@ -354,6 +413,23 @@ section::after{
     bottom: -550px;
     padding: 10px;
     width: 45%;
-  }
 
+  }
+  @media only screen and (min-width:600px) and (max-width: 920px) {
+    body{
+      width: 90%
+    }
+
+  }
+  @media only screen and (max-width: 599px){
+    body{
+      width: 320px;
+
+    }
+    pre{
+      font-size: .8em; 
+      padding: .5em; 
+    }
+  }
+  
 
