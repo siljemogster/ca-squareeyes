@@ -263,7 +263,7 @@ section::after{
     display: inline-block;
     margin: 6px;
     text-decoration: solid;
-    position: flex;
+    position: relative;
 
 }
 
