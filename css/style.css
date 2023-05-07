@@ -406,7 +406,7 @@ section::after{
 }
 
 .intro-img {
-    position: absolute;
+    position: flex;
     left: 45%;
     bottom: -550px;
     padding: 10px;
