@@ -18,9 +18,7 @@ pre{
   line-height: 1.6; 
   font-weight: bold;
 }
-.menu ul{
-  display: none;
-}
+
 .menu select{
   width: 200px;
   diplay: block;
