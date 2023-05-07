@@ -429,5 +429,9 @@ section::after{
       padding: .5em; 
     }
   }
+
+  .movie {
+    position: relative;
+  }
   
 
