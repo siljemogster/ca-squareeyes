@@ -431,8 +431,8 @@ section::after{
   }
 
   .movie {
-    position: flex;
-    text-align: left;
+    position: absolute;
+    text-align: flex;
   }
   
 
