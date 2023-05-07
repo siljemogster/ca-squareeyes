@@ -406,7 +406,7 @@ section::after{
 }
 
 .intro-img {
-    position: flex;
+    position: absolute;
     left: 45%;
     bottom: -550px;
     padding: 10px;
@@ -430,9 +430,4 @@ section::after{
     }
   }
 
-  .movie {
-    position: absolute;
-    text-align: flex;
-  }
-  
-
+ 
